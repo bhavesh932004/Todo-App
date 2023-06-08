@@ -1,0 +1,57 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  width: 300px;
+  height: 500px;
+  border: solid 4px black;
+  border-radius: 8px;
+  padding: 1em;
+  overflow-y: scroll;
+}
+
+#addnew {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border: solid 2px black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#tasks {
+  display: grid;
+  gap: 10px;
+  border: solid 2px black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#tasks div {
+  border: solid 0.5px black;
+  border-radius: 3px;
+  padding: 4px 8px;
+  display: grid;
+  gap: 3px;
+}
+
+.options {
+  justify-self: center;
+  display: flex;
+  gap: 1em;
+}
+
+.options i {
+  cursor: pointer;
+}
+
+.msg {
+  color: red;
+}
